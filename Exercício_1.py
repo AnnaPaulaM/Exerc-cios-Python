@@ -1,0 +1,1 @@
+print('mundo, mundo, vasto mundo')
