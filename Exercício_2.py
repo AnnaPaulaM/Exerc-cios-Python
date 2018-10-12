@@ -1,7 +1,7 @@
-import math    #importando biblioteca de matemática
+def vel_media(pos_i, pos_f, t):
+    vel_media = (pos_f - pos_i)/t
+    print('A velocidade média é:', vel_media)
 
-r = 5          #raio da esfera
-
-volume = (4/3) * math.pi * (r**3)      #expressão para volume da esfera
-
-print('O volume de uma esfera de raio 5 é:', volume, "u.v.")    #u.v. = unidades de volume
+def vel_acel(acel, t):
+    vel_acel = acel*t
+    print('A velocidade do movimento acelerado é:', vel_acel)
